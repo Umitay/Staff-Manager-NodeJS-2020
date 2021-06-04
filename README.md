@@ -4,8 +4,11 @@ I am using:
 1. API development based on Nodejs
 2. Postman application to work with the API requests. https://www.postman.com/downloads/
 3. MongoDB Atlas to work with cloud database service. https://www.mongodb.com/cloud/atlas
-4. Testing with ?
+4. Testing with Mocha, JavaScript test framework running on Node.js https://mochajs.org/
 
+
+Depend:
+npm i request --save-dev mocha
 
 How to run the code: npm run dev
 
