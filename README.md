@@ -3,8 +3,9 @@ Simple Rest API server to manage an organizathonal staff
 I am using:
 1. API development based on Nodejs
 2. Postman application to work with the API requests. https://www.postman.com/downloads/
-3. MongoDB Atlas to work with cloud database service. https://www.mongodb.com/cloud/atlas
-4. Git: "git+https://github.com/Umitay/staff-manager-.git"
+3. Postman shared APIs https://www.getpostman.com/collections/3b13256101d943fafd69
+4. MongoDB Atlas to work with cloud database service. https://www.mongodb.com/cloud/atlas
+5. Git: "git+https://github.com/Umitay/staff-manager-.git"
  
 
 How to run the code: 
