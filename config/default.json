@@ -1,0 +1,6 @@
+{
+  "port": 3080,
+  "mongoUri": "mongodb+srv://umi:12345umi@cluster0.ntonq.mongodb.net/mgr?retryWrites=true&w=majority",
+  "database": "mgr",
+  "jwtSecret": "JSON Web Token"
+}
