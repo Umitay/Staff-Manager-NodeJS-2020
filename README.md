@@ -1,25 +1,38 @@
 # staff-manager-
-
-Simple Rest API server to manage an organizathonal staff I am using:
-
+Simple Rest API server to manage an organizathonal staff
+I am using:
 1. API development based on Nodejs
 2. Postman application to work with the API requests. https://www.postman.com/downloads/
 3. MongoDB Atlas to work with cloud database service. https://www.mongodb.com/cloud/atlas
-4. Testing with ?
+4. Git: "git+https://github.com/Umitay/staff-manager-.git"
+ 
 
-How to run the code: npm run dev
+How to run the code: 
 
-How to set up/init/connect the database: ..
+cd staff-manager-
+nmp init
+npm run dev
 
-Data schema:
+How to set up/init/connect the database: No needs
+
+Data schema: 
 
 Department:
-id(PK), name, manager_id, location_id
+_id, name, manager_id
 
 Employee:
-id(PK), name, address, phone, position_id, manager_id, department_id
+_id, name, email, manager_id, department_id
+
 
 Project Structure:
 
-/api /configure /services /models/ /routers /test server.js package.json .gitignore
+/api
+  /config
+  /services
+  /models
+  /routers
+  /middlewares
+  server.js
+  package.json
+  .gitignore
   
