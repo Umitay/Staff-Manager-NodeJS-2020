@@ -11,7 +11,9 @@ I am using:
 How to run the code: 
 
 cd staff-manager-
-nmp init
+
+nmp install
+
 npm run dev
 
 How to set up/init/connect the database: No needs
